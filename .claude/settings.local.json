@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://pokeapi.co/api/v2/evolution-chain/1/\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
