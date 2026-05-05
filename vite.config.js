@@ -7,6 +7,7 @@ export default defineConfig({
   base: '/Pokedex/',
   build: {
     outDir: 'dist',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {
