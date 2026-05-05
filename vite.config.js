@@ -6,15 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/Pokedex/',
   build: {
-    outDir: 'dist',
-    sourcemap: false,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom']
-        }
-      }
-    }
+    outDir: 'dist'
   },
   resolve: {
     alias: {
